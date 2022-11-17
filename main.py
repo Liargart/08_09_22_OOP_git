@@ -194,37 +194,4 @@ print(f'Средняя оценка за все домашние задания 
 print(f'Средняя оценка за лекции всех лекторов по курсу Python '
       f'равна {average_cg(tutors, "Питон")}')
 
-#  добавим возможность сравнения персонажей
-#     def __lt__(self, other):
-#         if not isinstance(other, Character):
-#             print('Not a Character!')
-#             return
-#         return self.power < other.power
-#
-#     def __str__(self):
-#         res = f'Сила персонажа = {self.power}'
-#         return res
-#
-#
-# peter_parker = SpiderMan('Peter Parker', 80)
-# miles_morales = SpiderMan('Miles Morales', 85)
 
-# print(peter_parker < miles_morales)
-# и даже "больше" будет работать!
-# print(peter_parker > miles_morales)
-# print(peter_parker.__lt__(miles_morales))
-
-# print(peter_parker)
-# print(miles_morales)
-
-# best_student = Student('Ruoy', 'Eman', 'your_gender')
-# best_student.courses_in_progress += ['Python']
-#
-# cool_mentor = Mentor('Some', 'Buddy')
-# cool_mentor.courses_attached += ['Python']
-#
-# cool_mentor.rate_hw(best_student, 'Python', 10)
-# cool_mentor.rate_hw(best_student, 'Python', 10)
-# cool_mentor.rate_hw(best_student, 'Python', 10)
-#
-# print(best_student.grades)
